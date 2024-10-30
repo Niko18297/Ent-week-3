@@ -14,6 +14,7 @@ routerMovie.route('/:id/actors')
 .post(setActors)
 routerMovie.route('/:id/directors')       
 .post(setDirectors)
+
 routerMovie.route('/:id')
     .get(getOne)
     .delete(remove)
